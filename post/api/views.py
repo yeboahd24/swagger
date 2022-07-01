@@ -9,7 +9,7 @@ from drf_yasg.utils import swagger_auto_schema
 
 from post.api.utils.constants import PostStatus
 
-
+# Manual generating of schema
 @method_decorator(name='get', decorator=swagger_auto_schema(
     manual_parameters=[
         openapi.Parameter(
